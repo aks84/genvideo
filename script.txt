@@ -1,0 +1,43 @@
+How to Install Python 3.12 on Ubuntu 20.04 LTS Focal Fossa Step by Step Guide
+Step 1: Update Your Package List
+Before installing Python 3.12, it's a good idea to ensure that your package list is updated to get the latest version available from your repositories.
+run bash command in your terminal then new line
+sudo apt update
+
+Step 2: Install Prerequisites
+You'll need to install some prerequisites required for adding new repositories and building Python from source.
+run bash command in your terminal then new line
+sudo apt install -y software-properties-common
+
+Step 3: Add the Deadsnakes PPA
+The Deadsnakes PPA contains newer Python versions. You need to add it to your system.
+run bash command in your terminal then new line
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+Step 4: Update Your Package List Again
+After adding the PPA, update your package list again to include the new packages from the PPA.
+run bash command in your terminal then new line
+sudo apt update
+
+Step 5: Install Python 3.12
+Now you can install Python 3.12 using the following command.
+run bash command in your terminal then new line
+sudo apt install -y python3.12
+
+Step 6: Verify the Installation
+Confirm that Python 3.12 has been successfully installed by checking the version.
+run bash command in your terminal then new line
+python3.12 --version
+
+Step 7: Install pip for Python 3.12
+Pip is the package installer for Python. You will want to install it to manage Python packages easily.
+run bash command in your terminal then new line
+sudo apt install -y python3.12-distutils
+
+Step 8: Download get-pip.py
+Get the script to install pip.
+run bash command in your terminal then new line
+wget https://bootstrap.pypa.io/get-pip.py
+
+Step 9: LIKE, SHARE, SUBSCRIBE
+Leave your comments below.. 
